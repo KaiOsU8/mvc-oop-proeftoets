@@ -1,3 +1,3 @@
 <h3><?= $data['title']; ?></h3>
-<a href="http://mvc-2209a.org/country/index">index</a><br>
-<a href="http://mvc-2209a.org/country/getcountries">Alle landen van de wereld</a>
+<a href="http://mvc-oop-proeftoets.com/Voetballers/index">index</a><br>
+<a href="http://mvc-oop-proeftoets.com/Voetballers/getVoetballers">Top 5 best betaalde voetballers ter wereld</a>
