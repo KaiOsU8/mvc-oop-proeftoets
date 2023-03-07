@@ -2,24 +2,23 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: space-between;
 }
 
 .title1 {
-    color: green;
+    font-size: 48px;
+    color: greenyellow;
     text-align: center;
 }
 
 .naam, .club, .leeftijd, .nationaliteit, .salaris {
-    border: none;
+    font-size: 32px;
     
 }
 
-tbody {
+tr > td {
     text-align: center;
-}
-
-table > tbody > tr:nth-of-type(1) {
     border-bottom: 1px solid gray;
-    border-top: 1px thin gray  ;
+    padding: 1%;
+    font-size: 18px;
 }
